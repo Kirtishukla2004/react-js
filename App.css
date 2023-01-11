@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+.main {
+  margin: auto;
+  position: relative;
+  left: 40rem;
+  top: 15rem;
+}
+.counter {
+  position: relative;
+  left: 7rem;
+  bottom: 8rem;
+}
+.heading {
+  font-size: 4rem;
+}
+.increase {
+  position: relative;
+  bottom: 6rem;
+  right: 6rem;
+  height: 2.4rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  border: 2px solid #4dff4d;
+  background-color: #fff;
+  color: #4dff4d;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+.increase:hover {
+  border: 2px solid #fff;
+  background-color: #4dff4d;
+  color: #fff;
+}
+.reset {
+  position: relative;
+  bottom: 6rem;
+  right: 4rem;
+  height: 2.4rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  border: 2px solid #5cd6d6;
+  background-color: #fff;
+  color: #5cd6d6;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+.reset:hover {
+  border: 2px solid #fff;
+  background-color: #5cd6d6;
+  color: #fff;
+}
+.decrease {
+  position: relative;
+  bottom: 6rem;
+  right: 2rem;
+  height: 2.4rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  border: 2px solid #ff1a1a;
+  background-color: #fff;
+  color: #ff1a1a;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+.decrease:hover {
+  border: 2px solid #fff;
+  background-color: #ff1a1a;
+  color: #fff;
+}
